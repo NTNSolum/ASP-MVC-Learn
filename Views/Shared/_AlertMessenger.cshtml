@@ -1,0 +1,12 @@
+﻿@{
+    var messenger = TempData["Thongbao"] as string;
+}
+@if (!string.IsNullOrEmpty(messenger))
+{
+ <div class="alert alert-warning alert-dismissable fade show" role="alert">
+      @messenger
+     <button type="button" class="close" data-dismiss="alert" aria-label="close">
+         <span aria-hidden="true">&times;</span>
+     </button>
+ </div>
+}

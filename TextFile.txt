@@ -1,0 +1,10 @@
+﻿## CONTROLLER
+
+
+##VIEW
+
+##Truyền dữ liệu sang VIEW:
+- Model
+- ViewData
+- ViewBag
+- TempData
